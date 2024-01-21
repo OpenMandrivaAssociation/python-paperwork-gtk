@@ -27,6 +27,7 @@ Requires:	typelib(Libinsane)
 BuildArch:	noarch
 
 Provides:	paperwork
+Provides:	python-paperwork
 
 %description
 Paperwork is a personal document manager. It manages scanned documents 
