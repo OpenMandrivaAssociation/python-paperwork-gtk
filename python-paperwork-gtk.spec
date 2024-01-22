@@ -55,6 +55,9 @@ This package provides the GTK frontend for paperwork.
 %prep
 %autosetup -p1 -n paperwork-gtk-%{version}
 
+# relax version request for pyocr
+sed -i -e 's,pyocr >= 0.3.0,pyocr,g' pyproject.toml
+
 %build
 %py_build
 
