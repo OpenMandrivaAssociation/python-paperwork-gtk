@@ -3,7 +3,7 @@
 Summary:	Paperwork's GTK interface
 Name:		python-paperwork-gtk
 Version:	2.2.0
-Release:	1
+Release:	2
 License:	GPL-3.0-or-later
 Group:		Development/Python
 URL:		https://pypi.org/project/paperwork-gtk/
